@@ -19,19 +19,20 @@
     </div>
     <ul id="header-nav" class="header-nav">
         <!--        <li class="navbar-brand"><a href="/"><img src="http://placehold.jp/3d4070/ffffff/63x63.png" alt="logo"></a></li>-->
-        <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
+        <li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21">
             <a href="/" aria-current="page" id="nav-times">Home</a>
         </li>
-        <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home menu-item-21">
+        <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home menu-item-21">
             <a href="/" aria-current="page">About</a>
         </li>
-        <li id="menu-item-21" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home menu-item-21">
+        <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-home menu-item-21">
             <a href="/" aria-current="page">Contacts</a>
         </li>
         <li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-24">
             <a><span class="short">Dropdown</span></a>
             <ul class="sub-menu">
-                <li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="/">Sub item</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="./ARTSTUDIOPANGASIUS/header1.html">PANGASIUS</a></li>
+                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="/">Sub item</a></li>
             </ul>
         </li>
     </ul>
