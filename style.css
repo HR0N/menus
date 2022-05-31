@@ -147,7 +147,7 @@ opacity: 1;
 .menu-1 .menu-item-has-children > a span:after{
     content: '\23F7';
     position: absolute;
-    right: -5px;
+    right: -7px;
 }
 .nav-bars{
     position: absolute;
@@ -170,13 +170,17 @@ opacity: 1;
     .nav-bars button.show{
         display: block;
     }
-    .ul.header-nav{
-    }
+    .menu-1{min-height: 48px;}
     .menu-1 ul.header-nav{
         position: relative;
-        display: grid;
+        display: none;
         grid-auto-flow: row;
         grid-auto-columns: 1fr;
+        height: 0;
+    }
+    .menu-1 ul.header-nav.show{
+        display: grid;
+        height: auto;
     }
     .menu-item{
 
