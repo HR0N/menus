@@ -16,8 +16,8 @@
         <div class="navbar-brand__logo_text"><span>ART STUDIO</span><span>PANGASIUS</span></div>
     </a></div>
     <div class="nav-bars">
-        <button class="button show"></button>
-        <button class="button"></button>
+        <button class="button show"><img src="./img/burger1.svg"></button>
+        <button class="button"><img src="./img/burger2.svg"></button>
     </div>
     <div class="header-social">
         <div class="header-social__messengers">
@@ -26,11 +26,11 @@
         </div>
         <div class="header-social__email">Pangasius@gmail.com</div>
         <div class="header-social__languages">
-            <a href="#"><img src="./img/en.svg" alt="en"></a>&nbsp;
+            <a href="#"><img src="./img/en.svg" alt="en"></a>
             <a href="#"><img src="./img/ua.svg" alt="ua"></a>
         </div>
         <div class="header-social__phone">
-            <a href="#"><img src="./img/call.svg" alt="call">&nbsp; +38 (067) 555 55 55</a>
+            <a href="#"><img src="./img/call.svg" alt="call"><span>&nbsp; +38 (067) 555 55 55</span></a>
         </div>
     </div>
     <ul id="header-nav" class="header-nav">
@@ -56,7 +56,23 @@
                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="/">Sub item</a></li>
             </ul>
         </li>
+        <li class="header-nav__mobile-menu-footer">
+            <div class="header-nav__mobile-menu-footer_phone">
+                <a href="#"><img src="./img/call.svg" alt="call"><span>&nbsp; +38 (067) 555 55 55</span></a>
+            </div>
+            <div class="header-nav__mobile-menu-footer_email">
+                <a href="#">Pangasius@gmail.com</a>
+            </div>
+            <div class="header-nav__mobile-menu-footer_messengers">
+                <a href="#"><img src="./img/telegram.svg" alt="telegram"></a>
+                <a href="#"><img src="./img/viber.svg" alt="viber"></a>
+            </div>
+        </li>
     </ul>
 </header>
+<script src="./libs/jquery.slim.min.js"></script>
+<script src="./js/class_father.js"></script>
+<script src="./js/menu.js"></script>
+<script>$(document).ready(() => {let menu1 = new Menu('.menu-1')});</script>
 </body>
 </html>
